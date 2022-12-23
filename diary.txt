@@ -1,0 +1,2 @@
+date	problem_no	problem_title	difficulty	category	topic	note
+12/23/2022	19	Remove Nth Node From End of List	medium	algorithm	linked list	
