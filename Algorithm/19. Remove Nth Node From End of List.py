@@ -24,3 +24,16 @@ class Solution:
         slow_node.next = next_node.next
         return head
 
+
+
+'''
+Note:
+Two pointers needed.
+In order to go through the linked list only once,
+we need two pointers to keep the distance as n,
+to let us know which node is the nth from the end.
+
+Edge case:
+Deleting the first node (head)
+'''
+

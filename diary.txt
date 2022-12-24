@@ -1,2 +1,3 @@
 date	problem_no	problem_title	difficulty	category	topic	note
-12/23/2022	19	Remove Nth Node From End of List	medium	algorithm	linked list	
+12/23/2022	19	Remove Nth Node From End of List	medium	algorithm	linked list	two pointers to avoid going through the list twice
+12/23/2022  21  Merge Two Sorted Lists  easy    algorithm   linked list memory address id(mylist)
