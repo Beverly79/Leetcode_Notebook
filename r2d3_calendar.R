@@ -25,7 +25,7 @@ diary_group <- diary %>%
 r2d3plot <- r2d3(data = diary_group, d3_version = 5, container = "div", options = list(start = 2022, end = 2023), script = "d3-template.js")
 
 # save as html
-save_d3_html(r2d3plot, file = "r2d3_calendar.html", 
+save_d3_html(r2d3plot, file = "index.html", 
              selfcontained = TRUE, libdir = NULL,
              background = "white",
              knitrOptions = list())
