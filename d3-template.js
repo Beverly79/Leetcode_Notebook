@@ -15,7 +15,7 @@ var formatPercent = d3.format("1");
 
 var color = d3.scaleQuantize()
     .domain([0, 10])
-    .range(["#FFFFFF", "#C8EDE1", "#AFE2E4", "#9ACFDD", "#87C4D7", "#6FB8CF", "#5DA6C9", "#4394C0", "#367BA3", "#326896", "#2B5782"]);
+    .range(["#FFFFFF", "dfecf3", "bad6e4", "#95c1d6", "#70abc8", "#4b95ba", "#3a7998", "#2c5c73", "#1e3e4e", "#102129", "#020304"]);
 
 var svg = div
   .style("line-height", "0")
@@ -81,13 +81,13 @@ function pathMonth(t0) {
 
 
 // create plot title
-svg.append("text")
-   .attr("text-anchor", "start")
-   .attr("x", margin.middle)
-   .attr("y", margin.top - 520)
-   .attr("font-family", "sans-serif")
-   .text("Leetcode practice calendar")
-   .attr("fill", "black")
-   .attr("font-size", + 7 * height / 60)
+// svg.append("text")
+//    .attr("text-anchor", "start")
+//    .attr("x", margin.middle)
+//    .attr("y", margin.top - 520)
+//    .attr("font-family", "sans-serif")
+//    .text("Leetcode practice calendar")
+//    .attr("fill", "black")
+//    .attr("font-size", + 7 * height / 60)
    
   

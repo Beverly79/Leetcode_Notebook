@@ -8,9 +8,9 @@ class Solution:
         cur = head
         value = []
         while cur:
-            value.append(cur.val)
+            value.append(cur.val) # add all the value into a list
             cur = cur.next
-        value = value[::-1]
+        value = value[::-1] # reverse the list
         cur = head
         for i in range(len(value)-1):
             cur.val = value[i]
