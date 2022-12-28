@@ -1,11 +1,6 @@
-// !preview r2d3 data = diary_group, d3_version = 4, container = "div", options = list(start = 2022, end = 2023)
+// !preview r2d3 data = diary_group, d3_version = 4, container = "div", options = list(start = 2022, end = 2024)
 
 // Based on https://bl.ocks.org/mbostock/4063318
-
-// set up constants used throughout script
-const margin = {top: 500, right: 100, bottom:500, left: 100}
-const plotWidth = 800 - margin.left - margin.right
-const plotHeight = 600 - margin.top - margin.bottom
 
 
 var height = 200,
@@ -89,5 +84,3 @@ function pathMonth(t0) {
 //    .text("Leetcode practice calendar")
 //    .attr("fill", "black")
 //    .attr("font-size", + 7 * height / 60)
-   
-  

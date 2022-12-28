@@ -18,6 +18,8 @@
 | 61. Rotate List | medium |
 | 82. Remove Duplicates from Sorted List II | medium |
 | 83. Remove Duplicates from Sorted List | easy |
+| 86. Partition List | medium | 
+| 92. Reverse Linked List II | medium |
 | 141. Linked List Cycle | easy |
 | 160. Intersection of Two Linked Lists | easy |
 | 203. Remove Linked List Elements | easy |
