@@ -23,6 +23,8 @@
 | 138. Copy List with Random Pointer | medium |
 | 141. Linked List Cycle | easy |
 | 142. Linked List Cycle II &#x2B50;| medium |
+| 143. Reorder List | medium |
+| 146. LRU Cache | medium |
 | 160. Intersection of Two Linked Lists | easy |
 | 203. Remove Linked List Elements | easy |
 | 206. Reverse Linked List | easy |
