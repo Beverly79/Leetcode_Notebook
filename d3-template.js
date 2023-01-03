@@ -8,9 +8,11 @@ var height = 200,
     
 var formatPercent = d3.format("1");
 
-var color = d3.scaleQuantize()
-    .domain([0, 10])
-    .range(["#FFFFFF", "dfecf3", "bad6e4", "#95c1d6", "#70abc8", "#4b95ba", "#3a7998", "#2c5c73", "#1e3e4e", "#102129", "#020304"]);
+var color = d3.scaleLinear()
+    //.domain(d3.min(data[d]),d3.max(data[d]))
+    .domain([-1,10])
+    .range(["#FFFFFF","#3a7998"]);
+    //.range(["#FFFFFF", "dfecf3", "bad6e4", "#95c1d6", "#70abc8", "#4b95ba", "#3a7998", "#2c5c73", "#1e3e4e", "#102129", "#020304"]);
 
 var svg = div
   .style("line-height", "0")

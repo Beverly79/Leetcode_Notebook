@@ -11,7 +11,9 @@
 **linked list**
 |  problem  | difficulty  |
 |  ----  | ----  |
+| 1. Two Sum | easy |
 | 2. Add Two Numbers | medium |
+| 11. Container With Most Water | medium |
 | 19. Remove Nth Node From End of List  | medium |
 | 21. Merge Two Sorted Lists &#x2B50;  | easy |
 | 24. Swap Nodes in Pairs | medium |
@@ -24,7 +26,7 @@
 | 141. Linked List Cycle | easy |
 | 142. Linked List Cycle II &#x2B50;| medium |
 | 143. Reorder List | medium |
-| 146. LRU Cache | medium |
+| 146. LRU Cache &#x2B50; | medium |
 | 160. Intersection of Two Linked Lists | easy |
 | 203. Remove Linked List Elements | easy |
 | 206. Reverse Linked List | easy |
