@@ -40,6 +40,7 @@
 |  ----  | ----  |
 | 1. Two Sum | easy |
 | 11. Container With Most Water | medium |
+| 26. Remove Duplicates from Sorted Array &#x2B50; | easy |
 | 268. Missing Number | easy |
 
 
