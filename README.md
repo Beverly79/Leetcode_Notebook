@@ -11,9 +11,7 @@
 **linked list**
 |  problem  | difficulty  |
 |  ----  | ----  |
-| 1. Two Sum | easy |
 | 2. Add Two Numbers | medium |
-| 11. Container With Most Water | medium |
 | 19. Remove Nth Node From End of List  | medium |
 | 21. Merge Two Sorted Lists &#x2B50;  | easy |
 | 24. Swap Nodes in Pairs | medium |
@@ -33,4 +31,18 @@
 | 234. Palindrome Linked List | easy |
 | 876. Middle of the Linked List | easy |
 | 1474. Delete N Nodes After M Nodes of a Linked List | easy |
+
+<br>
+<br>
+
+**array**
+|  problem  | difficulty  |
+|  ----  | ----  |
+| 1. Two Sum | easy |
+| 11. Container With Most Water | medium |
+| 268. Missing Number | easy |
+
+
+
+
 
