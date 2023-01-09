@@ -42,6 +42,14 @@
 | 1. Two Sum | easy |
 | 11. Container With Most Water | medium |
 | 26. Remove Duplicates from Sorted Array &#x2B50; | easy |
+| 27. Remove Element | easy |
+| 35. Search Insert Position | easy |
+| 66. Plus One | easy |
+| 88. Merge Sorted Array | easy |
+| 118. Pascal's Triangle | easy |
+| 119. Pascal's Triangle II | easy |
+| 121. Best Time to Buy and Sell Stock | easy |
+| 136. Single Number | easy |
 | 268. Missing Number | easy |
 
 
