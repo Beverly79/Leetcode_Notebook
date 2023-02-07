@@ -52,6 +52,16 @@
 | 136. Single Number | easy |
 | 268. Missing Number | easy |
 
+<br>
+<br>
+<br>
+
+**string**
+|  problem  | difficulty  |
+|  ----  | ----  |
+| 12. Integer to Roman | medium |
+
+
 
 
 

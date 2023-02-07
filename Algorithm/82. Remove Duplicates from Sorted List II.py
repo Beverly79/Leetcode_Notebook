@@ -15,8 +15,7 @@ class Solution:
             if cur.next.val == cur.next.next.val: # same value mark
                 mark = cur.next.val
             if cur.next.val == mark:
-                cur.next.val = cur.next.next.val
-                cur.next.next = cur.next.next.next
+                cur.next = cur.next.next
             else:
                 cur = cur.next
         if cur.next.val == mark:
