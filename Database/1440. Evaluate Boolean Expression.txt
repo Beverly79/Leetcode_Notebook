@@ -1,0 +1,15 @@
+# Write your MySQL query statement below
+
+select e.left_operand, e.operator, e.right_operand, 
+if(CASE 
+when v.value1 = v.value2 then "="
+when v.value1 < v.value2 then "<"
+when v.value1 > v.value2 then ">"
+END = e.operator, "true", "false") as value
+from Expressions as e
+left join 
+    (select v1.name as a, v2.name as b, v1.value as value1, v2.value as value2 
+    from Variables as v1
+    left join Variables as v2
+    on v1.name <> v2.name or v1.name = v2.name) as v
+on v.a = e.left_operand and v.b = e.right_operand

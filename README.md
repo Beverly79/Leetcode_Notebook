@@ -43,7 +43,7 @@
 | 11. Container With Most Water | medium |
 | 26. Remove Duplicates from Sorted Array &#x2B50; | easy |
 | 27. Remove Element | easy |
-| 31. Next Permutation | medium |
+| 31. Next Permutation &#x2B50; | medium |
 | 33. Search in Rotated Sorted Array | medium |
 | 35. Search Insert Position | easy |
 | 66. Plus One | easy |
@@ -63,9 +63,21 @@
 |  problem  | difficulty  |
 |  ----  | ----  |
 | 12. Integer to Roman | medium |
+| 49. Group Anagrams &#x2B50; | medium |
 
+<br>
+<br>
+<br>
 
+## Database
 
-
+|  problem  | difficulty  |
+|  ----  | ----  |
+| 511. Game Play Analysis I | easy | 
+| 512. Game Play Analysis II &#x2B50; | easy |
+| 534. Game Play Analysis III &#x2B50;  | medium |
+| 577. Employee Bonus | easy |
+| 597. Friend Requests I: Overall Acceptance Rate | easy |
+| 1440. Evaluate Boolean Expression | medium |
 
 

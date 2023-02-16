@@ -1,0 +1,16 @@
+# Write your MySQL query statement below
+
+# combine duplicates by 'distinct'
+# ifnull to convert null to something else
+# round
+# if select from two tables at the same time, name the tables will be faster to locate the columns
+
+select
+round(
+    ifnull(
+        count(distinct r.requester_id, r.accepter_id) /
+        count(distinct f.sender_id, f.send_to_id)
+    ,0)
+,2)
+as accept_rate
+from RequestAccepted as r, FriendRequest as f
